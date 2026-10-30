@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propuesta de Entrenamiento - Gabriela Guadalupe Gonzalez</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Configuración estricta para impresión en PDF manteniendo el diseño oscuro */
+        @media print {
+            body {
+                -webkit-print-color-adjust: exact !important;
+                print-color-adjust: exact !important;
+                background-color: #111827 !important; /* bg-gray-900 */
+                color: #f3f4f6 !important; /* text-gray-100 */
+            }
+            .bg-gray-800 {
+                background-color: #1f2937 !important;
+            }
+            .bg-gray-900 {
+                background-color: #111827 !important;
+            }
+            .text-orange-500 {
+                color: #f97316 !important;
+            }
+            .bg-orange-500 {
+                background-color: #f97316 !important;
+            }
+            .no-print {
+                display: none !important;
+            }
+            .print-break-avoid {
+                page-break-inside: avoid;
+                break-inside: avoid;
+            }
+            /* Asegurar que las sombras y bordes se vean bien en PDF */
+            * {
+                box-shadow: none !important;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-200 font-sans antialiased selection:bg-orange-500 selection:text-white">
+
+    <!-- Botón Flotante para PDF -->
+    <button onclick="window.print()" class="fixed top-6 right-6 bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-full shadow-[0_0_15px_rgba(249,115,22,0.5)] transition-all transform hover:scale-105 z-50 no-print flex items-center gap-2">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+        Exportar a PDF
+    </button>
+
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        
+        <!-- HEADER / HERO SECTION (Problema) -->
+        <header class="text-center py-16 print-break-avoid">
+            <p class="text-orange-500 font-bold tracking-widest uppercase text-sm mb-4">Propuesta Estratégica Confidencial • 28/10/2026</p>
+            <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-6 leading-tight">
+                Gabriela, Es Hora de Recuperar Esa Definición y <span class="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600">Volver a Tu Mejor Versión</span>
+            </h1>
+            <p class="text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
+                Viste esas fotos antiguas y notaste que antes estabas más definida. Últimamente, la vida se interpuso, los horarios se complicaron y tu rutina se desbalanceó. 
+                Estás aquí para <strong>ganar masa muscular, recuperar tu constancia y ver resultados reales</strong>. Se acabó la improvisación.
+            </p>
+        </header>
+
+        <!-- SECCIÓN DE AGITACIÓN Y SOLUCIONES (Barreras) -->
+        <section class="py-12 print-break-avoid">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-white mb-4">Las Barreras Que Te Han Frenado <span class="text-orange-500">(Y Cómo Las Vamos a Destruir)</span></h2>
+                <p class="text-gray-400">Tus obstáculos son reales, pero mi sistema está diseñado exactamente para hackearlos.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Barrera 1 -->
+                <div class="bg-gray-800 rounded-2xl p-8 border-t-4 border-orange-500 print-break-avoid">
+                    <h3 class="text-xl font-bold text-white mb-3 flex items-center gap-2">
+                        <svg class="w-6 h-6 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        Falta de Tiempo
+                    </h3>
+                    <p class="text-gray-400 text-sm mb-4 italic">"Horarios complicados que no me dejan entrenar..."</p>
+                    <p class="text-gray-200"><strong>La Solución:</strong> Entrenamientos de hipertrofia minimalistas y altamente efectivos. Cero horas perdidas en el gimnasio. Entras, estimulas el músculo y sales. Adaptado a tu disponibilidad exacta.</p>
+                </div>
+
+                <!-- Barrera 2 -->
+                <div class="bg-gray-800 rounded-2xl p-8 border-t-4 border-orange-500 print-break-avoid">
+                    <h3 class="text-xl font-bold text-white mb-3 flex items-center gap-2">
+                        <svg class="w-6 h-6 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        Falta de Constancia
+                    </h3>
+                    <p class="text-gray-400 text-sm mb-4 italic">"El desbalance me saca de mi rutina diaria..."</p>
+                    <p class="text-gray-200"><strong>La Solución:</strong> Rendición de cuentas directa. Con tu nivel de compromiso actual (4/5), mi seguimiento llenará ese último punto. Evaluaciones continuas para que nunca te sientas a la deriva.</p>
+                </div>
+
+                <!-- Barrera 3 -->
+                <div class="bg-gray-800 rounded-2xl p-8 border-t-4 border-orange-500 print-break-avoid">
+                    <h3 class="text-xl font-bold text-white mb-3 flex items-center gap-2">
+                        <svg class="w-6 h-6 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                        Mala Alimentación
+                    </h3>
+                    <p class="text-gray-400 text-sm mb-4 italic">"Ansiedad por comer y mala estructuración..."</p>
+                    <p class="text-gray-200"><strong>La Solución:</strong> Cero dietas de hambre. Aprovecharemos que comes limpio (huevo, frijoles) e incluiremos tus gustos (sí, hasta los tamales) cuadrando los macros para ganar masa muscular sin acumular grasa extra.</p>
+                </div>
+
+                <!-- Barrera 4 -->
+                <div class="bg-gray-800 rounded-2xl p-8 border-t-4 border-orange-500 print-break-avoid">
+                    <h3 class="text-xl font-bold text-white mb-3 flex items-center gap-2">
+                        <svg class="w-6 h-6 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>
+                        Estrés y Mal Sueño
+                    </h3>
+                    <p class="text-gray-400 text-sm mb-4 italic">"Descanso deficiente que bloquea el progreso..."</p>
+                    <p class="text-gray-200"><strong>La Solución:</strong> El músculo crece cuando duermes, no cuando entrenas. Implementaremos protocolos de higiene del sueño y gestión del estrés para asegurar que tu cuerpo realmente se repare y crezca.</p>
+                </div>
+
+                <!-- Barrera 5 -->
+                <div class="bg-gray-800 rounded-2xl p-8 border-t-4 border-orange-500 print-break-avoid lg:col-span-2">
+                    <h3 class="text-xl font-bold text-white mb-3 flex items-center gap-2">
+                        <svg class="w-6 h-6 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>
+                        Confusión y Exceso de Info
+                    </h3>
+                    <p class="text-gray-400 text-sm mb-4 italic">"No saber qué funciona realmente para mí..."</p>
+                    <p class="text-gray-200"><strong>La Solución:</strong> Apaga el ruido de las redes sociales. Yo me encargo de la ciencia, la biomecánica y la programación. Tú solo abres tu plan, ejecutas el paso a paso, y disfrutas de ver cómo regresan los resultados.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- EL MÉTODO (Solución en Línea de Tiempo) -->
+        <section class="py-12 print-break-avoid">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-white">El Método: <span class="text-orange-500">4 Fases para tu Transformación</span></h2>
+                <p class="text-gray-400 mt-2">Un enfoque quirúrgico, diseñado para tu cuerpo a los 35 años y tus metas.</p>
+            </div>
+
+            <div class="relative border-l-2 border-orange-500/30 ml-3 md:ml-6 space-y-10 pb-4">
+                
+                <!-- Fase 1 -->
+                <div class="relative pl-8 md:pl-12 print-break-avoid">
+                    <div class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-orange-500 ring-4 ring-gray-900"></div>
+                    <h3 class="text-2xl font-bold text-white mb-2"><span class="text-orange-500">Fase 1:</span> Entrenamiento Estratégico</h3>
+                    <p class="text-gray-300 leading-relaxed bg-gray-800 p-5 rounded-xl border border-gray-700 shadow-sm">
+                        Diseño de rutinas de hipertrofia focalizada. Aprovecharemos tus días disponibles creando estímulos potentes que fuercen a tu cuerpo a construir músculo nuevo, sin desgastarte ni agravar tu estrés. Tensión mecánica óptima para recuperar esa definición muscular.
+                    </p>
+                </div>
+
+                <!-- Fase 2 -->
+                <div class="relative pl-8 md:pl-12 print-break-avoid">
+                    <div class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-orange-500 ring-4 ring-gray-900"></div>
+                    <h3 class="text-2xl font-bold text-white mb-2"><span class="text-orange-500">Fase 2:</span> Nutrición de Precisión (Sin Restricciones Absurdas)</h3>
+                    <p class="text-gray-300 leading-relaxed bg-gray-800 p-5 rounded-xl border border-gray-700 shadow-sm">
+                        Calcularemos un superávit calórico ligero y estratégico. Integrar tus frijoles, huevos y platillos tradicionales de forma que jueguen a tu favor. Controlaremos la ansiedad con comidas saciantes. Tienes salud impecable y evitas alcohol/tabaco; usaremos esa ventaja metabólica a fondo.
+                    </p>
+                </div>
+
+                <!-- Fase 3 -->
+                <div class="relative pl-8 md:pl-12 print-break-avoid">
+                    <div class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-orange-500 ring-4 ring-gray-900"></div>
+                    <h3 class="text-2xl font-bold text-white mb-2"><span class="text-orange-500">Fase 3:</span> Optimización de Sueño y Recuperación</h3>
+                    <p class="text-gray-300 leading-relaxed bg-gray-800 p-5 rounded-xl border border-gray-700 shadow-sm">
+                        Atacaremos tu barrera del estrés. Implementaremos pautas simples para mejorar tu descanso profundo. Si no descansas, no construyes músculo ni bajas ansiedad. Esto es innegociable en nuestro programa.
+                    </p>
+                </div>
+
+                <!-- Fase 4 -->
+                <div class="relative pl-8 md:pl-12 print-break-avoid">
+                    <div class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-orange-500 ring-4 ring-gray-900"></div>
+                    <h3 class="text-2xl font-bold text-white mb-2"><span class="text-orange-500">Fase 4:</span> Métricas y Ajustes Dinámicos</h3>
+                    <p class="text-gray-300 leading-relaxed bg-gray-800 p-5 rounded-xl border border-gray-700 shadow-sm">
+                        Ya que tus últimos resultados InBody "no subieron", cambiaremos el enfoque de medición. Monitoreo fotográfico (como descubriste tu motivación original), medidas corporales y progresión de fuerza en el gimnasio. Lo que se mide, se mejora.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CALL TO ACTION (CTA) -->
+        <section class="py-16 text-center print-break-avoid mt-8 bg-gray-800 rounded-3xl border border-gray-700 relative overflow-hidden">
+            <!-- Decorative background element -->
+            <div class="absolute top-0 right-0 w-64 h-64 bg-orange-500/10 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none"></div>
+            
+            <div class="relative z-10 px-6">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-white mb-6">Gabriela, Tienes un <span class="text-orange-500">Compromiso Nivel 4</span>. Yo Pongo lo Que Falta.</h2>
+                <p class="text-xl text-gray-300 max-w-2xl mx-auto mb-10">
+                    Tu expectativa es clara: <strong>Ver resultados</strong>. Mi objetivo es dártelos. Mis cupos de asesoría 1-a-1 son limitados porque me involucro al 100% en cada cliente. Si estás lista para dejar las excusas, el estrés y volver a ver esa definición en el espejo, da el paso ahora.
+                </p>
+                
+                <a href="https://wa.me/50375648276?text=Hola%20coach,%20estoy%20lista%20para%20empezar%20mi%20transformaci%C3%B3n.%20Quiero%20ganar%20masa%20muscular%20y%20recuperar%20mi%20definici%C3%B3n." target="_blank" rel="noopener noreferrer" 
+                   class="inline-block bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-bold text-lg py-4 px-10 rounded-full shadow-[0_0_20px_rgba(249,115,22,0.4)] hover:shadow-[0_0_30px_rgba(249,115,22,0.6)] transition-all transform hover:-translate-y-1 no-print">
+                    Sí, Quiero Empezar Mi Transformación
+                </a>
+                
+                <p class="mt-6 text-gray-400 font-mono text-lg">
+                    <span class="text-gray-500 text-sm block mb-1">Contacto Directo Vía WhatsApp:</span>
+                    +503 7564-8276
+                </p>
+            </div>
+        </section>
+        
+    </div>
+
+</body>
+</html>
